@@ -116,7 +116,6 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
     height: auto
 }
 
@@ -524,4 +523,5 @@ ul {
     margin-right: auto;
     margin-left: auto;
     border-radius: 75px;
+    width: 20%;
 }
