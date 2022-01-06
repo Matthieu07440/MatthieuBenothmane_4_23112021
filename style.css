@@ -88,10 +88,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -410,10 +406,6 @@ h1 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
