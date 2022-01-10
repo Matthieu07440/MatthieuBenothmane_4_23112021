@@ -6,11 +6,13 @@ body {
 }
 
 a,
-button {
+button :hover {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+li {
+    padding-top: 25px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
