@@ -12,6 +12,7 @@ button :hover {
 }
 li {
     padding-top: 15px;
+    font-size: 17px;
 }
 a:hover {
     text-decoration: none;
