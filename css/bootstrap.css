@@ -170,40 +170,13 @@ p {
 
 ol,
 ul {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
     padding-left: 15px;
-    margin-top: 15px;
 }
 
 .container {
     padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-
-@media (min-width:768px) {
-    .container {
-        width: 750px
-    }
-}
-
-@media (min-width:992px) {
-    .container {
-        width: 970px
-    }
-}
-
-@media (min-width:1200px) {
-    .container {
-        width: 1170px
-    }
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
 }
 
 .col-lg-1,
@@ -257,9 +230,12 @@ ul {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    margin-top: 50px;
 }
-
+.row {
+    width: 100%;
+}
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
@@ -299,9 +275,10 @@ ul {
     }
     .col-sm-6 {
         width: 50%;
+        
     }
     .col-sm-4 {
-        width: 33.33333333%;
+        width: 30%;
     }
     .col-sm-3 {
         width: 25%;
@@ -423,10 +400,13 @@ ul {
         padding-bottom: 0;
         overflow: visible !important
     }
+    .navbar.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .navbar-brand {
-    float: left;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -449,7 +429,25 @@ ul {
     border: 1px solid transparent;
     border-radius: 4px
 }
-
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
 @media (min-width:768px) {
     .navbar-nav {
         float: left;
@@ -461,6 +459,9 @@ ul {
     .navbar-nav>li>a {
         padding-top: 15px;
         padding-bottom: 15px
+    }
+    .navbar-toggle {
+        display: none
     }
 }
 
