@@ -86,13 +86,17 @@ body {
 
 button,
 input,
-select,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
 textarea {
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
+    width: 100%;
 }
-
 a {
     color: #337ab7;
     text-decoration: none

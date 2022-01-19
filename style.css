@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    width: 100%;
 }
 
 a,
@@ -36,7 +37,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px 0px;
 }
 
 .bloc-md {
