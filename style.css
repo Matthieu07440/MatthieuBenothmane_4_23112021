@@ -21,7 +21,6 @@ li {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: white!important;
 }
 .page-container{
     width: 100%;
