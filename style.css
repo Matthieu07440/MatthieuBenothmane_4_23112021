@@ -21,6 +21,7 @@ li {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: white!important;
 }
 .page-container{
     width: 100%;
@@ -429,7 +430,7 @@ h1 {
 }
 
 .tc-white {
-    color: #1F1F1F!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
