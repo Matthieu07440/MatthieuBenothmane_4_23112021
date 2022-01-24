@@ -361,12 +361,6 @@ ul {
     list-style: none
 }
 
-.nav>li {
-    width: 90%;
-    position: relative;
-    display: block
-}
-
 .nav>li>a {
     position: relative;
     display: block;
@@ -392,12 +386,6 @@ ul {
     }
 }
 @media (min-width:768px) {
-    .navbar-collapse {
-        width: auto;
-        border-top: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none
-    }
     .navbar-collapse.collapse {
         display: block !important;
         height: auto !important;
