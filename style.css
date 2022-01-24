@@ -394,8 +394,9 @@ h3 {
     color: #333333!important;
 }
 
-h4 {
+h5 {
     color: white!important;
+    font-size: 20px;
 }
 .med-width-whitespace {
     max-width: 800px;
